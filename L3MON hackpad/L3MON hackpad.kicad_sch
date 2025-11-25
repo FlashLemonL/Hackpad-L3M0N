@@ -1415,7 +1415,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 133.35) (xy 200.66 133.35)
+			(xy 170.18 147.32) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0a626d-e22d-42b5-bdde-d3a48eb567dd")
+	)
+	(wire
+		(pts
+			(xy 189.23 133.35) (xy 200.66 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1432,16 +1442,6 @@
 			(type default)
 		)
 		(uuid "127e5080-966a-42a6-97e2-d5878152f785")
-	)
-	(wire
-		(pts
-			(xy 181.61 144.78) (xy 181.61 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19cf43f5-32ff-464f-9848-5a1f6bc01427")
 	)
 	(wire
 		(pts
@@ -1465,6 +1465,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 101.6) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326197a3-d0b8-402d-91a4-38c72c121fcc")
+	)
+	(wire
+		(pts
 			(xy 185.42 142.24) (xy 237.49 142.24)
 		)
 		(stroke
@@ -1475,13 +1485,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 101.6) (xy 190.5 101.6)
+			(xy 189.23 110.49) (xy 189.23 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e718833-5d28-4915-8988-e5d2145daaf9")
+		(uuid "46151a0a-a8ea-4a55-aff7-4f50b6edcc35")
 	)
 	(wire
 		(pts
@@ -1535,16 +1545,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 190.5 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bbea26b-6ac5-4637-bfd4-66ee5312a7b0")
-	)
-	(wire
-		(pts
 			(xy 185.42 121.92) (xy 185.42 142.24)
 		)
 		(stroke
@@ -1585,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 144.78) (xy 181.61 144.78)
+			(xy 170.18 147.32) (xy 242.57 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1665,16 +1665,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 147.32) (xy 242.57 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c591f1dd-5c31-4f03-b897-437e201f6275")
-	)
-	(wire
-		(pts
 			(xy 152.4 144.78) (xy 152.4 154.94)
 		)
 		(stroke
@@ -1735,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 101.6) (xy 173.99 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e0ec85-5c68-4250-93c6-4d7cd38fd638")
+	)
+	(wire
+		(pts
 			(xy 245.11 154.94) (xy 245.11 125.73)
 		)
 		(stroke
@@ -1762,6 +1762,16 @@
 			(type default)
 		)
 		(uuid "f4886ed1-6f11-4831-aa60-0e7f2806bd06")
+	)
+	(wire
+		(pts
+			(xy 173.99 110.49) (xy 189.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a5738b-d23a-45e8-83d3-6961f64fd2df")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1966,7 +1976,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 186.69 77.47 0)
+		(at 194.31 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1975,7 +1985,7 @@
 		(fields_autoplaced yes)
 		(uuid "63dec6ee-c0df-4885-8de5-5be47e7ba9d7")
 		(property "Reference" "SW8"
-			(at 186.69 67.31 0)
+			(at 194.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +1993,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 186.69 69.85 0)
+			(at 194.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +2001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 73.406 0)
+			(at 190.5 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +2010,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 70.866 0)
+			(at 194.31 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2019,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 186.69 77.47 0)
+			(at 194.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
