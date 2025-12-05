@@ -2,7 +2,6 @@
 My first ever hardware, CAD and 3D modelled project. it is a macro pad that i need to use since my keyboard is missing some keys and macros will be useful to open up study resources.
 
 ### Parts in the build
-BOM:
 - 6x Cherry MX Switches
 - 1x 0.91 inch OLED display
 - 1x XIAO RP2040
