@@ -611,6 +611,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/lukem/Downloads/outemu-mx-switch-1.snapshot.2/asm_mx_asm.stp"
+			(offset
+				(xyz -2.5 -5 6.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -894,6 +905,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/lukem/Downloads/outemu-mx-switch-1.snapshot.2/asm_mx_asm.stp"
+			(offset
+				(xyz -2.5 -5 6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -1181,6 +1203,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/lukem/Downloads/outemu-mx-switch-1.snapshot.2/asm_mx_asm.stp"
+			(offset
+				(xyz -2.5 -5 6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Seeed Studio XIAO Series Library:XIAO-RP2040-DIP"
 		(layer "F.Cu")
@@ -1461,7 +1494,7 @@
 			(net 14 "Net-(U1-GPIO26{slash}ADC0{slash}A0)")
 			(pinfunction "GPIO26/ADC0/A0")
 			(pintype "passive")
-			(uuid "2b32e02a-5ec9-4e80-8fc5-940259dc61f0")
+			(uuid "63b274e7-b260-4393-8a1c-b0947f7f6732")
 		)
 		(pad "2" smd roundrect
 			(at -8.455 -5.08 180)
@@ -1483,7 +1516,7 @@
 			(net 11 "Net-(U1-GPIO27{slash}ADC1{slash}A1)")
 			(pinfunction "GPIO27/ADC1/A1")
 			(pintype "passive")
-			(uuid "bc2a7640-140f-42c6-865e-428eb4801bbd")
+			(uuid "7d3885d6-ad50-43a4-a661-814fd27716b8")
 		)
 		(pad "3" smd roundrect
 			(at -8.455 -2.54 180)
@@ -1505,7 +1538,7 @@
 			(net 5 "Net-(U1-GPIO28{slash}ADC2{slash}A2)")
 			(pinfunction "GPIO28/ADC2/A2")
 			(pintype "passive")
-			(uuid "ecbdf9dd-7af2-401a-a787-e6fd80c73a6d")
+			(uuid "03aa91e3-5bfd-4ec2-ba20-2b9c8243eb19")
 		)
 		(pad "4" smd roundrect
 			(at -8.455 0 180)
@@ -1527,7 +1560,7 @@
 			(net 15 "unconnected-(U1-GPIO29{slash}ADC3{slash}A3-Pad4)")
 			(pinfunction "GPIO29/ADC3/A3")
 			(pintype "passive")
-			(uuid "a37ef6ae-064c-48cf-a9bd-d045c3d62f72")
+			(uuid "e2a12e80-b27f-4044-81d8-3da551d0e1e4")
 		)
 		(pad "5" smd roundrect
 			(at -8.455 2.54 180)
@@ -1549,7 +1582,7 @@
 			(net 4 "Net-(J1-Pin_4)")
 			(pinfunction "GPIO6/SDA")
 			(pintype "passive")
-			(uuid "91b625c5-976c-430f-a412-b4d8e4e768d6")
+			(uuid "7704b428-63f2-4c53-9390-5ebfe2e9dc42")
 		)
 		(pad "6" smd roundrect
 			(at -8.455 5.08 180)
@@ -1571,7 +1604,7 @@
 			(net 3 "Net-(J1-Pin_3)")
 			(pinfunction "GPIO7/SCL")
 			(pintype "passive")
-			(uuid "da0dba0c-a9d0-45a3-86c8-49eefcbfb34f")
+			(uuid "46df1374-1690-4026-9275-9f53f18d14b7")
 		)
 		(pad "7" smd roundrect
 			(at -8.455 7.62 180)
@@ -1593,7 +1626,7 @@
 			(net 6 "Net-(U1-GPIO0{slash}TX)")
 			(pinfunction "GPIO0/TX")
 			(pintype "passive")
-			(uuid "1a95f3ee-9a18-42ee-84c4-b559f28f648d")
+			(uuid "7e3bb09f-e374-4a28-8650-40ec797f563f")
 		)
 		(pad "8" thru_hole circle
 			(at 7.62 7.62)
@@ -1615,7 +1648,7 @@
 			(pinfunction "GPIO1/RX")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "1e4cd5d2-713d-49e0-99dc-9e2b9e791493")
+			(uuid "37bfdb69-4156-442a-b1ec-8fee2ec3e319")
 		)
 		(pad "9" thru_hole circle
 			(at 7.62 5.08)
@@ -1637,7 +1670,7 @@
 			(pinfunction "GPIO2/SCK")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "4adcec94-a7db-434d-8d15-0d88cce71f7d")
+			(uuid "9ddac7c4-abc6-4135-939e-76eb9793c209")
 		)
 		(pad "10" thru_hole circle
 			(at 7.62 2.54)
@@ -1659,7 +1692,7 @@
 			(pinfunction "GPIO4/MISO")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "c4bb7692-6c51-4534-aeae-9b47256a4384")
+			(uuid "ab734ab1-23df-41d1-bde7-95910b75b2cc")
 		)
 		(pad "11" thru_hole circle
 			(at 7.62 0)
@@ -1681,7 +1714,7 @@
 			(pinfunction "GPIO3/MOSI")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "06686819-337c-4573-8624-191f7d746ecf")
+			(uuid "dcca9895-2402-43db-9ef7-6c38115e2cc3")
 		)
 		(pad "12" thru_hole circle
 			(at 7.62 -2.54)
@@ -1703,7 +1736,7 @@
 			(pinfunction "3V3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "719bdaa0-3691-48a1-9e60-d50db3e2ffaf")
+			(uuid "2c73da56-8a72-4997-8180-041c1c9dd2bc")
 		)
 		(pad "13" thru_hole circle
 			(at 7.62 -5.08)
@@ -1725,7 +1758,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "5ae48c09-6d72-4ffe-8052-1341e0ce83e0")
+			(uuid "b87db8c5-175c-43c9-ac7f-234e6abd7729")
 		)
 		(pad "14" thru_hole circle
 			(at 7.62 -7.62)
@@ -1747,7 +1780,7 @@
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "879f303d-3cf0-4847-8c36-14501d3d5e81")
+			(uuid "8be910a5-8829-47de-9758-a078768bab77")
 		)
 		(embedded_fonts no)
 		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
@@ -1807,6 +1840,17 @@
 			)
 			(rotate
 				(xyz -90 0 0)
+			)
+		)
+		(model "C:/Users/lukem/Downloads/Seeed Studio XIAO RP2040/Seeed Studio XIAO RP2040 v26.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -2094,6 +2138,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/lukem/Downloads/outemu-mx-switch-1.snapshot.2/asm_mx_asm.stp"
+			(offset
+				(xyz -2.5 -5 6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "opl2:SSD1306-0.91-OLED-4pin-128x32"
 		(layer "F.Cu")
@@ -2350,6 +2405,17 @@
 			(uuid "0e445ce5-5114-4185-83cf-e35b3293298c")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/lukem/Downloads/128x32-OLED.STEP"
+			(offset
+				(xyz 18.5 -6 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 180)
+			)
+		)
 	)
 	(footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 		(layer "F.Cu")
@@ -2730,7 +2796,7 @@
 			(drill oval 2.8 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "777bae85-64e3-4084-8d65-0437a1223898")
+			(uuid "9532ae6f-4b69-4e3c-9fd4-1030cbb6d7f3")
 		)
 		(pad "S1" thru_hole circle
 			(at 14.5 5)
@@ -2764,6 +2830,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/lukem/Downloads/rotary-encoder-17.snapshot.2/旋转编码器.STEP"
+			(offset
+				(xyz 7.5 -2.5 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -3051,6 +3128,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/lukem/Downloads/outemu-mx-switch-1.snapshot.2/asm_mx_asm.stp"
+			(offset
+				(xyz -2.5 -5 6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -3334,6 +3422,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/lukem/Downloads/outemu-mx-switch-1.snapshot.2/asm_mx_asm.stp"
+			(offset
+				(xyz -2.5 -5 6.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
