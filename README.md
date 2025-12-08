@@ -1,6 +1,9 @@
 # Hackpad-L3M0N
 My first ever hardware, CAD and 3D modelled project. it is a macro pad that i need to use since my keyboard is missing some keys and macros will be useful to open up study resources.
 
+3D Model of PCB
+![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/3d%20model.png)
+
 ### Parts in the build
 - 6x Cherry MX Switches
 - 1x 0.91 inch OLED display
@@ -10,6 +13,7 @@ My first ever hardware, CAD and 3D modelled project. it is a macro pad that i ne
 - 4x M3x16 Bolt
 - 4x M3 Heatset
 
-Schematic            |  PCB         |   Case
+Schematic            |  PCB         |   Assembled Case
 :-------------------------:|:-------------------------:|:-------------------------:|
-![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/schematic.png)    |  ![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/pcb.png)  | ![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/case.png)
+![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/schematic.png)    |  ![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/pcb.png)  | ![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/full%20case.png)
+
