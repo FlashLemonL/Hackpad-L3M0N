@@ -17,3 +17,9 @@ Schematic            |  PCB         |   Assembled Case
 :-------------------------:|:-------------------------:|:-------------------------:|
 ![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/schematic.png)    |  ![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/pcb.png)  | ![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/full%20case.png)
 
+Assembled Case With Top Off
+![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/top%20off.png)
+
+Front Expanded            |  Back Expanded         |   Front Corner   |  Back Corner         |
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/front%20model.png)     |   ![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/back%20model.png)     |   ![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/front%20corner.png)     |   ![image](https://github.com/FlashLemonL/Hackpad-L3M0N/blob/main/Assets/back%20corner.png)     |
