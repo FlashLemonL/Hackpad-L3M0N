@@ -38,7 +38,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_5755ffff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -1494,7 +1494,7 @@
 			(net 14 "Net-(U1-GPIO26{slash}ADC0{slash}A0)")
 			(pinfunction "GPIO26/ADC0/A0")
 			(pintype "passive")
-			(uuid "63b274e7-b260-4393-8a1c-b0947f7f6732")
+			(uuid "f57612ed-a466-4fb0-bec9-df90538b9c8f")
 		)
 		(pad "2" smd roundrect
 			(at -8.455 -5.08 180)
@@ -1516,7 +1516,7 @@
 			(net 11 "Net-(U1-GPIO27{slash}ADC1{slash}A1)")
 			(pinfunction "GPIO27/ADC1/A1")
 			(pintype "passive")
-			(uuid "7d3885d6-ad50-43a4-a661-814fd27716b8")
+			(uuid "27eb7e57-69a7-4904-a154-8fd97eeb74d2")
 		)
 		(pad "3" smd roundrect
 			(at -8.455 -2.54 180)
@@ -1538,7 +1538,7 @@
 			(net 5 "Net-(U1-GPIO28{slash}ADC2{slash}A2)")
 			(pinfunction "GPIO28/ADC2/A2")
 			(pintype "passive")
-			(uuid "03aa91e3-5bfd-4ec2-ba20-2b9c8243eb19")
+			(uuid "db6632c0-a06b-4fa5-a860-ef9d79c35cf5")
 		)
 		(pad "4" smd roundrect
 			(at -8.455 0 180)
@@ -1560,7 +1560,7 @@
 			(net 15 "unconnected-(U1-GPIO29{slash}ADC3{slash}A3-Pad4)")
 			(pinfunction "GPIO29/ADC3/A3")
 			(pintype "passive")
-			(uuid "e2a12e80-b27f-4044-81d8-3da551d0e1e4")
+			(uuid "a6a72dad-ed31-4d42-b260-380b030d7e83")
 		)
 		(pad "5" smd roundrect
 			(at -8.455 2.54 180)
@@ -1582,7 +1582,7 @@
 			(net 4 "Net-(J1-Pin_4)")
 			(pinfunction "GPIO6/SDA")
 			(pintype "passive")
-			(uuid "7704b428-63f2-4c53-9390-5ebfe2e9dc42")
+			(uuid "a6bb72a0-3fc8-4eb0-9273-47d678bcc8f1")
 		)
 		(pad "6" smd roundrect
 			(at -8.455 5.08 180)
@@ -1604,7 +1604,7 @@
 			(net 3 "Net-(J1-Pin_3)")
 			(pinfunction "GPIO7/SCL")
 			(pintype "passive")
-			(uuid "46df1374-1690-4026-9275-9f53f18d14b7")
+			(uuid "4af22898-09b8-4acd-a7de-119855e407e3")
 		)
 		(pad "7" smd roundrect
 			(at -8.455 7.62 180)
@@ -1626,7 +1626,7 @@
 			(net 6 "Net-(U1-GPIO0{slash}TX)")
 			(pinfunction "GPIO0/TX")
 			(pintype "passive")
-			(uuid "7e3bb09f-e374-4a28-8650-40ec797f563f")
+			(uuid "4969b7bc-e360-4dd8-8738-725d5354a764")
 		)
 		(pad "8" thru_hole circle
 			(at 7.62 7.62)
@@ -1648,7 +1648,7 @@
 			(pinfunction "GPIO1/RX")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "37bfdb69-4156-442a-b1ec-8fee2ec3e319")
+			(uuid "719294d9-6dc3-4999-a067-2a52629698d9")
 		)
 		(pad "9" thru_hole circle
 			(at 7.62 5.08)
@@ -1670,7 +1670,7 @@
 			(pinfunction "GPIO2/SCK")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9ddac7c4-abc6-4135-939e-76eb9793c209")
+			(uuid "a78dc78c-4b8a-4c12-8c1f-062bb077a146")
 		)
 		(pad "10" thru_hole circle
 			(at 7.62 2.54)
@@ -1692,7 +1692,7 @@
 			(pinfunction "GPIO4/MISO")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ab734ab1-23df-41d1-bde7-95910b75b2cc")
+			(uuid "92ce2860-ed22-4999-831d-04755203265c")
 		)
 		(pad "11" thru_hole circle
 			(at 7.62 0)
@@ -1714,7 +1714,7 @@
 			(pinfunction "GPIO3/MOSI")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "dcca9895-2402-43db-9ef7-6c38115e2cc3")
+			(uuid "5f4736de-487a-4607-ae03-6b024c01220f")
 		)
 		(pad "12" thru_hole circle
 			(at 7.62 -2.54)
@@ -1736,7 +1736,7 @@
 			(pinfunction "3V3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "2c73da56-8a72-4997-8180-041c1c9dd2bc")
+			(uuid "e1e195c8-0646-459c-984f-6ff521663b4f")
 		)
 		(pad "13" thru_hole circle
 			(at 7.62 -5.08)
@@ -1758,7 +1758,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "b87db8c5-175c-43c9-ac7f-234e6abd7729")
+			(uuid "4b490923-cdfc-4e49-8aa8-d086fafe69ad")
 		)
 		(pad "14" thru_hole circle
 			(at 7.62 -7.62)
@@ -1780,7 +1780,7 @@
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "8be910a5-8829-47de-9758-a078768bab77")
+			(uuid "a66086da-b2fb-4650-b21b-5b3e8570c667")
 		)
 		(embedded_fonts no)
 		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
@@ -2796,7 +2796,7 @@
 			(drill oval 2.8 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "9532ae6f-4b69-4e3c-9fd4-1030cbb6d7f3")
+			(uuid "5b98ce3a-6ff2-4ce3-b80a-0ef66c1fe125")
 		)
 		(pad "S1" thru_hole circle
 			(at 14.5 5)
